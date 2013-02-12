@@ -28,6 +28,12 @@ int main(int argc, char *argv[])
         NSString *myString = @"This is my string";
         NSLog(@"The value is: %@.", myString);
         
+        //Call the sqrt function.  Store its return value (1.414213562373115) into s.
+        double s2 = sqrt(2.0);
+        NSLog(@"The square root of 2.0 is %g.", s2);
+        
+        NSLog(@"The square root of 2.0 again is %g.", sqrt(2.0));
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([Feb14AppDelegate class]));
     }
 }
